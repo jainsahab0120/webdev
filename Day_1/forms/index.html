@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!--forms have two major attribute 
+        action :-which specify the path that where the action is being perfomrmed
+
+        method :- in case of forms are of two types get and post
+        by default mehtod get hota hai -->
+        <!-- # usi page pr le ata hai 
+         -->
+       
+    <form action="" method="get">
+        <label for="name"></label>
+        <!-- name = "name" query string mein jo name dhikahi deta hai wo name yhi hota hai  -->
+        <!-- id = "id#one" this id is used in label  -->
+        
+        <input type="text" name="name"  id="name">
+        <br>
+        <label for="age"></label>
+        <input type="text" name="age">
+        <br>
+        <label for="email"></label>
+        <input type="text" name="email">
+        <br>
+        <label for="phone"></label>
+        <input type="text" name="phone">
+        <br><label for="address"></label>
+        <input type="text" name="address"><br>
+        <label for="gender"></label>
+        
+        <input type="text" name="gender"><br>
+        <input type="submit" value="submit"> 
+        <input type="reset" value="reset">
+        <!-- button is by default submit -->
+           <!-- jab bhi tum get request bhejte ho all my sensitive information that was a part of my form apears in the main url   (provided you should have mention the name attribute)-->
+
+        <!-- in case of post emtire data  is not visible in the url  -->
+    </form>
+</body>
+</html>
