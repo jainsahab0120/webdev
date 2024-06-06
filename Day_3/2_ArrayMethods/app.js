@@ -2,6 +2,9 @@
 // agar change parmanent reflect ho jaye to destructive else non distructive
 
 //push
+
+// let returnType = Arr.push("aryan");
+// // push return the length of the array after pushing; 
 let arr = [
     1,10,'aj' , 12.3 ,
 ]
