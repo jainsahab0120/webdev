@@ -19,4 +19,102 @@
 
 // when nothing is return from the function by default undefined is return
 
-''
+
+
+// function a(kantara){
+//     console.log("hi im inside a");
+//     kantara();
+    
+// }
+// function b(){
+//     console.log("hi im inside b");
+// }
+// a(b);
+
+
+function a(){
+    console.log("hi im inside a");
+    function b(){
+        console.log("hi im inside b");
+    }
+
+    return b;
+    
+    
+}
+
+// console.log(a());
+let ans = a();
+console.log(ans());
+
+// real life example
+
+// function getBoolean (array){
+//     let result = [];
+//     for(let i of array ){
+//         if(typeof(i) == 'boolean'
+//         ){
+//             result.push(i);
+//         }
+//     }
+//     return result;
+
+// }
+// function getString(array){
+//     let result = [];
+//     for(let i of array ){
+//         if(typeof(i) == "string"
+//         ){
+//             result.push(i);
+//         }
+//     }
+//     return result;
+
+// }
+// function getNumber(array){
+//     let result = [];
+//     for(let i of array ){
+//         if(typeof(i) == "number"
+//         ){
+//             result.push(i);
+//         }
+//     }
+//     return result;
+
+// }
+// let arr = ['aryan' , 'jain ' , 10 , 20 , false , true];
+// console.log(getBoolean(arr));
+// console.log(getNumber(arr));
+// console.log(getString(arr));
+
+// can be also done as
+
+let arr = ['aryan' , 'jain ' , 10 , 20 , false , true];
+
+function getBoolean(item){
+    return  typeof(item ) === 'boolean';
+
+}
+function getNumber(item){
+    return  typeof(item ) === "number";
+
+}
+function getString(item){
+    return  typeof(item ) === 'string';
+
+}
+// for check and store
+
+function get ( array , fn){
+    let result = [];
+    for(let i of array ){
+        if(fn(i)){
+            result.push(i);
+        }
+    }
+    return result;
+}
+console.log(get(arr , getBoolean));
+console.log(get(arr , getString));
+console.log(get(arr , getNumber));
+
