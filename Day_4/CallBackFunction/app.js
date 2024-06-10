@@ -20,7 +20,7 @@ function getString(item){
 }
 
 function check(item , fn){
-    return fn(item);
+    return fn(item); // fn ko call kiya aur hof mein pass bhi kiya hai to callback function ho gya
 
 }
 console.log(check(true , getBoolean));//true
