@@ -7,9 +7,7 @@ for(let button of buttons){
     setTimeout(()=>{
         
     })
-
-
-    button.addEventListener('click' , ()=>{
+   button.addEventListener('click' , ()=>{
         let text = button.innerText;
         console.log(text);
         if(text == "AC"){
