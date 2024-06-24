@@ -1,0 +1,19 @@
+.first{
+    color: lightseagreen;
+}
+.second{
+    background-color: crimson;
+}
+
+.third{
+    border: 2px solid  lightpink;
+}
+.akar {
+    font-size:  40px;
+}
+
+#container{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
