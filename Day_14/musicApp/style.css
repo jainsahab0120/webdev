@@ -1,0 +1,27 @@
+button{
+    background-color: none;
+    border: none;
+}
+
+#progress{
+    cursor: pointer;
+}
+i{
+    font: 1.8rem;
+}
+#song-list{
+    padding: 0;
+    list-style: none;
+}
+#container{
+    position: relative;
+    width: 360px;
+    border: 2px solid black;
+}
+#play-section{
+    position: absolute;
+    bottom: unset;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
