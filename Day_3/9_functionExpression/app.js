@@ -47,7 +47,7 @@ function hello(){
 }
 
 // whenever a function is called a new execution context is created 
-// with the name of the function which also has two phases same as aabove
+// with the name of the function which also has two phases same as above
 
 
 

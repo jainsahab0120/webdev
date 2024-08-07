@@ -1,5 +1,5 @@
 // there is no differecne in class and constructor function 
-// its just a syntactical sugal (beatufied syntax)
+// its just a syntactical sugar (beautfied syntax)
 
 // function Person(firstName , lastName){
 //     this.firstName = firstName;

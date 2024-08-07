@@ -10,8 +10,8 @@ let arr = [
 ]
 arr.push(29);
 console.log(arr);
-
-// pop
+  
+// pop returned the popped elem
 let  pop = arr.pop();
 console.log(arr);
 console.log(pop);
@@ -76,6 +76,9 @@ let arrr = [ 1,2,3,4,5,6];
 console.log(arrr.reverse());//[6, 5, 4, 3, 2, 1]
 
 // change in a array will change others also
+
+
+
 
 
 

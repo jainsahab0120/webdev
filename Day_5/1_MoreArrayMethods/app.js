@@ -69,5 +69,31 @@ let vegmenu = menu.filter(function(item) {
 
 console.log(vegmenu);
 
+// reduce 
+
+let numbers = [1,2,3,4,5];
+let sum = numbers.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
+
+
+// some 
+
+let someArray = [1,2,3,4,5,6,7,8,9,10];
+console.log(someArray.some(function(item){
+    return item % 2 === 0;
+}));
+// some return true or false if any one satisfy the condition
+
+// every
+
+console.log(someArray.every(function(item){
+    return item % 2 === 0;
+}));
+
+// some return true or false if any one satisfy the condition
+
 
 
