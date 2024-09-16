@@ -116,6 +116,6 @@ myfun1();
 // arrow function 
 
 let fun = fn  =>{
-    console.log(this);
+    console.log(this); // depend on parent ka this
 }
 

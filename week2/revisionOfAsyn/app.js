@@ -23,3 +23,30 @@ function sumOfsomeThing(a ,b ,task){
 
 console.log(sumOfsomeThing(5, 6, square));
 
+
+// wrapping function using another async fn
+function myownsetTimeout(fn , duration ){
+    setTimeout(fn , duration);
+}
+myownsetTimeout(()=>{
+    console.log("hi therrr");
+    
+
+},2000);
+
+// we can use this pattern to wrap all the function which we want to make async and then call them in sync manner
+
+
+// now using promise 
+
+function myowmnsettimeout(duration){
+    return  new Promise(function(resolve ){
+        setTimeout(resolve  , 2000);
+    })
+    
+}
+myowmnsettimeout(2000).then(function(){
+    console.log("then chal gya");
+    
+})
+

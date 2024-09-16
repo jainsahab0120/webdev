@@ -1,5 +1,6 @@
 //promise
-
+ // threee state resolve reject pending
+ 
 // let promise = new Promise(); // new Promise ( ) ek promise return kr dega  it accept one function and it immeditiately call ho jata hai
 
 // let promise = new Promise( (resolve , reject) =>{

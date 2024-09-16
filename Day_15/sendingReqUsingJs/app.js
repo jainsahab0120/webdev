@@ -36,3 +36,5 @@ req.onerror = function(){
 };
 
 // Get - lena/fetch ,Post - dena ,  
+
+// fetch - return a promise 

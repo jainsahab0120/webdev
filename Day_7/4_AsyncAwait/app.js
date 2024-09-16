@@ -1,3 +1,5 @@
+// async func always return a promise 
+
 async function fn(){
     await new Promise((resolve , reject)=>{
         setTimeout(() =>{
@@ -25,3 +27,10 @@ async function fn(){
 
 
 fn();
+
+async function sam(){
+    return Promise(); // promise return hoga  
+}
+console.log(sam()); // promise 
+
+

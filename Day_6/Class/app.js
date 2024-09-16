@@ -42,11 +42,9 @@ console.log
 //inhertence 
 class Student extends Person{
     constructor(firstName , lastName , contactNo ){
-        super(firstName , lastName);
+        super(firstName , lastName); // run the constructor of the extended class 
             this.contact = contactNo;
 
-        
-        
     }
 }
 

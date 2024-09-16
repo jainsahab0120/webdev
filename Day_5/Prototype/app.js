@@ -21,3 +21,6 @@ let arr = [1,2,3];
 
 arr.__proto__ == Array.prototype;// true
 Array.prototype.__proto__ === Object.__proto__;
+
+// polyfill 
+// creation of your own object and throw it into its protype 
