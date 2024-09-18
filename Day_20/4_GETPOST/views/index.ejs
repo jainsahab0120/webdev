@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>get vs post</h1>
+    <fieldset>
+    <legend>get</legend>
+    <form action="/user" method="get">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="name" name="username">
+        <!-- kis key ke sath bind kr rahe hai   name use hoga -->
+
+        <label for="age"></label>
+        <input type="text" id="age" placeholder="age" name="userage">
+
+
+        <!-- strongly coupled application   localhost:8080  yha tak ka path pata hota hai --> 
+        <button>submit</button>
+    </form>
+</fieldset>
+<hr>
+<br>
+<hr>
+
+<h1>get vs post</h1>
+    <fieldset>
+    <legend>post</legend>
+    <form action="/user" method="post">
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="name" name="username">
+        <!-- kis key ke sath bind kr rahe hai   name use hoga -->
+
+        <label for="age"></label>
+        <input type="text" id="age" placeholder="age" name="userage">
+
+
+        <!-- strongly coupled application   localhost:8080  yha tak ka path pata hota hai --> 
+        <button>submit</button>
+    </form>
+</fieldset>
+
+</body>
+</html>
