@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+    <h1>displaying all the blogs</h1>
+    <%  for(let i of comments){%>
+        <div>
+
+            <h2>id is : <%=i.id %></h2>
+            <h2>username is :<%= i.userName %></h2>
+            <h2>comment is : <%=i.comment %></h2>
+            <a href="/blogs/<%=i.id %>">show</a>
+            <% }%>
+            
+        </div>
+</body>
+</html>

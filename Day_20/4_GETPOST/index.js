@@ -24,7 +24,8 @@ app.use(express.static(path.join(__dirname, "public"))) // for static files
 
 app.use(express.urlencoded({ extended: true })) // middleware to get the form data
  // for parsing application/x-www-form-urlencoded
-
+app.use(express.json()) // middlware for json data
+// else empty objedct
 
 app.get('/' , (req , res)=>{
     res.render('index');
