@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>displaying all the blogs</h1>
+    
     <%  for(let i of comments){%>
         <div>
 
@@ -15,7 +16,18 @@
             <h2>username is :<%= i.userName %></h2>
             <h2>comment is : <%=i.comment %></h2>
             <a href="/blogs/<%=i.id %>">show</a>
+            <a href="/blogs/<%=i.id%>/edit">edit</a>
+            <form action="/blogs/<%= i.id %>?_method=DELETE" method="POST">
+                <button>delete</button>
+
+            </form>
+            <br>
+
+           
+
+            <hr>
             <% }%>
+            <a href="/blogs/view"><button>ADD NEW</button></a>
             
         </div>
 </body>

@@ -1,0 +1,11 @@
+mongo shell 
+mongosh to enter 
+exit /ctr ^c * 2  to exit
+show databases/show dbs -- to shwo database
+db - current database 
+use databasename //case sensitivity -- to use database 
+db.dropDatabase() //delete the current database 
+use aryan -- jo found nhi hota to naya db ban jata hai 
+empty database show nhi hote 
+
+
